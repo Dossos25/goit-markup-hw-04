@@ -478,7 +478,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-right: 120px; 
+    
     width: 264px;   
 }
 .social-text {
@@ -487,7 +487,9 @@ button {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-
+.footer-paragraf {
+    margin-right: 120px;
+}
 .social-footer-link {
     display: flex;
     align-items: center;
