@@ -411,6 +411,7 @@ button {
     text-transform: uppercase;
     color: #4D5AE5; 
     margin-bottom: 16px;
+    max-width: 264px;
     
 }
 
@@ -418,19 +419,41 @@ button {
     color: #f4f4fd;
 }
 
+.footer-list {
+    display: flex;
+    
+}
+.footer-item {}
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-right: 864px;    
+    padding-right: 120px; 
+    width: 264px;   
 }
 .social-text {
     font: 500 16px / 1.5 ;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    
+    margin-bottom: 16px;
+}
+
+.social-footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    fill: #f4f4fd;}
+
+.social-footer-link:hover,
+social-footer-link:focus {
+    background-color: #31d0aa;
 }
 
 /* #endregion footer */
