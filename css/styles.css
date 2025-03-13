@@ -397,7 +397,7 @@ button {
 
 .card-blok {
     position: relative;
-    
+    overflow: hidden;
 }
 
 .overlay {
