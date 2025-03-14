@@ -417,7 +417,6 @@ button {
     line-height: 150%;
     letter-spacing: 0.02em;    
     transform: translateY(100%);
-    opacity: 0;
     background-color: #4d5ae5;
     color: #f4f4fd;
     
